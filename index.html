@@ -39,7 +39,6 @@
 </head>
 <body data-spy="scroll" data-target="#main-navbar" data-offset="75">
 	
-	<!-- Preloader starts -->
 	<div class="preloader">
 		<div class="loader">
 			<div class="diamond"></div>
@@ -61,7 +60,7 @@
 				
 				<!-- Navigation Starts -->
 				<ul class="navbar-nav ml-auto" id="main-menu">
-				    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+					<li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
 					<li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
@@ -78,29 +77,31 @@
 	<!-- Header Section End -->
 	
 	<!-- Banner Slider Section starts -->
-	<div class="banner d-flex justify-content-center align-items-center" id="home">
-		<div class="container d-flex justify-content-center align-items-center">
-			<div class="d-flex justify-content-center align-items-center">
+	<div class="banner" id="home">
+		<div class="container">
+			<div class="row">
 				<div class="col-lg-6">
 					<!-- Banner Content Start -->
 					<div class="banner-content">
 						<h2 class="cd-headline clip">
 							<span class="before-heading">Hi There! I'm </span>
 							<span class="cd-words-wrapper">
-								<b class="is-visible">Data Analyst</b>
-								<b>WordPress Developer</b>
+								<b class="is-visible">WordPress Developer</b>
+								<b>Data Analyst</b>
 							</span>
 						</h2>
-						<p>A fresh graduate in BS Information Technology. My desire to use technology 
+						<p>My desire to use technology 
 							to build websites that are both useful and aesthetically pleasing has inspired me to work in the web development sector. </p>
 						
-						<a href="./images/cv.pdf" class="btn-download">Download CV</a>
+						<a href="./images/resume.pdf"  target="_blank" class="btn-download mb-2">Download Resume</a>
+						<a href="./images/cover.pdf" target="_blank" class="btn-download">Download Cover Letter</a>
 					</div>
 					<!-- Banner Content End -->
 				</div>
 			</div>
 		</div>
 	</div>
+	<!-- Banner Slider Section ends -->
 	<!-- Banner Slider Section ends -->
 	
 	<!-- About us Section Starts -->
@@ -130,7 +131,7 @@
 					<!-- About Content start -->
 					<div class="about-content wow fadeInUp" data-wow-delay="0.8s">
 						<h3>I'm Jenecil Patac</h3>
-						<p>I'm happy to start my career in the web development sector since I'm always keen to learn new things and advance as a developer and analyst.</p>
+						
 						
 						<ul>
 							<li><i class="flaticon-calendar"></i><b>Date of birth:</b> January 24, 2001</li>
@@ -368,7 +369,7 @@
 											<i class="fa fa-star-o"></i>
 											<i class="fa fa-star-o"></i>
 											<i class="fa fa-star-o"></i>
-											<i class="fa fa-star-o"></i>
+											
 										</div>
 									</div>
 									<!-- Skill Single End -->
@@ -474,6 +475,19 @@
 											<i class="fa fa-star-o"></i>
 											<i class="fa fa-star-o"></i>
 											<i class="fa fa-star-o"></i>
+										</div>	
+										</div>
+									<!-- Skill Single End -->
+								</div>
+								<div class="col-md-6">
+									<!-- Skill Single Start -->
+									<div class="skill-single">
+										<h5>Git</h5>
+										<div class="skill-ratting">
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+											<i class="fa fa-star-o"></i>
+											
 										</div>	
 										</div>
 									<!-- Skill Single End -->
@@ -675,13 +689,13 @@
 					<div id="popup-5" class="popup-box mfp-fade mfp-hide">
 						<div class="content">
 							<div class="image">
-								<img src="images/portfolio-5.jpg" alt="">
+								<img src="images/5.png" alt="">
 							</div>
 							<div class="desc">
 								<h4>Tourist Destination in Korea</h4>
 								<h5><i class="fa fa-folder"></i> Website</h5>
 								<p>
-									>Tourist Destination in Korea is one of our activity on my 3rd year in college. It is developed through ReactJS.
+									Tourist Destination in Korea is one of our activity on my 3rd year in college. It is developed through ReactJS.
 								</p>
 								<!--<a href="#" class="btn-view-project">View Project</a>-->
 							</div>
@@ -704,7 +718,7 @@
 					<div id="popup-6" class="popup-box mfp-fade mfp-hide">
 						<div class="content">
 							<div class="image">
-								<img src="images/portfolio-6.jpg" alt="">
+								<img src="images/6.png" alt="">
 							</div>
 							<div class="desc">
 								<h4>LGU Website</h4>
@@ -779,65 +793,18 @@
 			
 			</div>
 			
-			<div class="row">
+			<!--<div class="row">
 				<div class="col-md-12">
 					<div class="load-more-portfolio">
 						<a href="#">Load More Portfolio</a>
 					</div>
 				</div>
-			</div>
+			</div>--->
 		</div>
 	</section>
 	<!-- Portfolio Section Ends -->
 
-	<!-- Contact us Section Starts -->
-	<section class="contactus" id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<!-- Section title start -->
-					<div class="section-title">
-						<h2>Get in touch</h2>
-						<p>Feel free to drop me a line - Contact us</p>
-					</div>
-					<!-- Section title end -->
-				</div>
-			</div>
-			
-			<div class="row">
-				<div class="col-md-8 offset-md-2">
-					<!-- Contact Form start -->
-					<div class="contact-form">
-						<form id="contactForm" action="#" method="post">
-							<div class="row">
-								<div class="form-group col-md-6 col-sm-6">
-									<input type="text" class="form-control" placeholder="Your Name">
-								</div>
-								
-								<div class="form-group col-md-6 col-sm-6">
-									<input type="email" class="form-control" placeholder="Your Email Address">
-								</div>
-								
-								<div class="form-group col-md-12 col-sm-12">
-									<input type="text" class="form-control" placeholder="Subject">
-								</div>
-								
-								<div class="form-group col-md-12 col-sm-12">
-									<textarea rows="4" class="form-control" placeholder="How can i help you?"></textarea>
-								</div>
-								
-								<div class="col-md-12 col-sm-12 text-center">
-									<button type="submit" class="btn-contact">Contact Now</button>
-								</div>
-							</div>
-						</form>
-					</div>
-					<!-- Contact Form end -->
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- Contact us Section Ends -->
+
 	
 	<!-- Contact Information Section Starts -->
 	<div class="contact-information">
